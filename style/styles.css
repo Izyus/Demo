@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    background-color: #dad9d9;
+
+}
+
+header {
+    min-width: 1209px;
+    width: 1209px;
+    display: inline;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+a.text:active, /* sadasdsds */ 
+a.text:hover,
+a.text {
+    text-decoration: none;
+    color: #EEEEEE;
+
+}
+
+.menu {   
+    position: sticky;
+    color: white;
+    width: 1209px;
+    padding-top: 20px;
+    min-width: 1209px;
+    height: 85px;
+    background-color: #007765;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    border-left: 2px solid white;
+    font-family: "Roboto";
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-family: 'Roboto';
+    background-color: #007765
+}
+
+.menu-left {
+    display: block;
+    background-color: #007765;
+    text-align: right;
+    margin-right: 20px;
+
+
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.banner {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 32px;
+    font-weight: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1209px;
+    text-align: center;
+    background: url('/img/block-1.png');
+    background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
+    background-position: center center;
+    padding: 160px 0;
+    text-align: center;
+
+
+}
+.problem {
+    width: 1209px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #EEEEEE;
+    padding: 48px 0 92px;
+    text-align: left;
+
+}
+
+p {
+    margin-bottom: 55px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.banner_2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1209px;
+    text-align: center;
+    background: url('/img/main_1.svg');
+    background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
+    background-position: center center;
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+.intro {
+    width: 1209px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffff;
+    padding: 48px 0 92px;
+    text-align: left;
+
+}
+
+.intro img {
+    float: left;
+    margin: 30px 55px;
+
+}
+
+.first {
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    padding-top: 55px;
+    padding-bottom: 122px;
+    width: 1209px;
+    background-color: #EEEEEE
+}
+
+.she {
+    margin: 0 74.5px 200px;
+
+}
+
+.last {
+
+    width: 350px;
+    height: 170px;
+    margin: 70px 0;
+    display: inline;
+    float: left;
+
+}
+
+.first .she .last img {
+    width: 170px;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+    border-radius: 110%;
+}
+
+.first .she .last h1.name,
+p.about {
+    z-index: 1;
+
+    text-align: center;
+    margin: 10px 0;
+}
+
+.name {
+    font-size: 24px;
+    font-family: 'Roboto';
+    color: #007765;
+    width: 350px;
+    margin-right: 400 PX;
+
+}
+
+.about {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: black;
+    width: 350px;
+}
+
+.header_team {
+    text-align: center;
+    margin: 0;
+    font-size: 64px;
+    color: #007765;
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 0;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1209px;
+    padding: 48px 0 20px;
+    background-color: #333333;
+
+}
+
+p.footer {
+    color: #dad 9d9;
+
+    margin-left: 340px;
+    margin-right: 340px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+
+ul.menu-left {
+    background-color: pink
+}
+
+#team,
+#problem,
+#intro {
+
+    position: absolute;
+    margin-top: -82px;
+
+}
+
+h2 {
+    font-size: 64px;
+    font-family: 'Roboto';
+    color: #007765;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}
+
+p {
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 37.5px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 48px;
+    margin: 35px 110px 55px;
+    line-height: 50px;
+
+}
+
+p.footer {
+    color: white;
+    font-size: 18px;
+
+}
+
+p.intro {
+    margin-top: 100px;
+}
